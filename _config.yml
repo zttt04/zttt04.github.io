@@ -15,6 +15,15 @@
 # in the templates via {{ site.myvariable }}.
 url: "https://zttt04.github.io"
 baseurl: "" # the subpath of your site, e.g. /blog
+title: "Tong Zhao"
+description: "Tong Zhao personal website: AI research in world models, autonomous driving, 4DGS, and GUI agents."
+lang: en
+author:
+  name: "Tong Zhao"
+social:
+  name: "Tong Zhao"
+  links:
+    - "https://github.com/zttt04"
 
 # Build settings
 markdown: kramdown

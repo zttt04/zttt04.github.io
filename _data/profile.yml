@@ -4,7 +4,7 @@ navbar_name: "Tong Zhao"
 
 positions:
 - name: B.Eng. Candidate in Artificial Intelligence, Tongji University
-- name: Interests: GUI Agents, Embodied AI Evaluation, Edge AI Inference Systems
+- name: "Interests: GUI Agents, Embodied AI Evaluation, Edge AI Inference Systems"
 
 email: "zt.tong@hotmail.com"
 cv_link: /Tong_Zhao_CV.pdf
@@ -26,7 +26,7 @@ portrait_url: /assets/images/photos/portrait.jpg
 education:
 - name: Tongji University
   logo: /assets/images/badges/PKU_red.png
-  position: B.Eng. in Artificial Intelligence (GPA: 4.65/5.00, Rank: 1/48)
+  position: "B.Eng. in Artificial Intelligence (GPA: 4.65/5.00, Rank: 1/48)"
   date: Sep 2023 - Present
 
 awards:

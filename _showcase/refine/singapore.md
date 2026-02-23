@@ -2,7 +2,7 @@
 show: true
 width: 6
 date: 2026-02-23 00:02:00 +0800
-group: Refine Photos
+group: Photograph
 location: Singapore
 time_label: 2026.01
 images:

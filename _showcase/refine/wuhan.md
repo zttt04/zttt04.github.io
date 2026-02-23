@@ -2,7 +2,7 @@
 show: true
 width: 6
 date: 2026-02-23 00:01:00 +0800
-group: Refine Photos
+group: Photograph
 location: Wuhan
 time_label: 2025.11
 images:

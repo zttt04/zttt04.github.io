@@ -4,6 +4,7 @@ width: 6
 date: 2026-02-23 00:04:00 +0800
 group: Refine Photos
 location: Beijing
+time_label: 2026.02
 images:
 - src: /assets/images/showcase/refine/beijin/20230122-P1000867.jpg
   title: Beijing
@@ -18,6 +19,6 @@ images:
 ---
 
 <div class="p-2">
-  <h5 class="mb-2">{{ page.location }}</h5>
+  <h5 class="mb-2">{{ page.location }} · {{ page.time_label }}</h5>
   {% include widgets/image_grid.html images=page.images %}
 </div>

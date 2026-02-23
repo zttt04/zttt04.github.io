@@ -4,6 +4,7 @@ width: 6
 date: 2026-02-23 00:02:00 +0800
 group: Refine Photos
 location: Singapore
+time_label: 2026.01
 images:
 - src: /assets/images/showcase/refine/singapore/20230104-P1000435.jpg
   title: Singapore
@@ -20,6 +21,6 @@ images:
 ---
 
 <div class="p-2">
-  <h5 class="mb-2">{{ page.location }}</h5>
+  <h5 class="mb-2">{{ page.location }} · {{ page.time_label }}</h5>
   {% include widgets/image_grid.html images=page.images %}
 </div>

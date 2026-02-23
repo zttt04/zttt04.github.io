@@ -5,35 +5,35 @@ date: 2026-02-23 00:01:00 +0800
 group: Refine Photos
 height: 360px
 images:
-- src: /assets/images/showcase/refine/wuhan/_ZTT0018.jpg
+- src: /assets/images/showcase/refine/wuhan/ZTT0018.jpg
   title: Wuhan
-- src: /assets/images/showcase/refine/wuhan/_ZTT0061.jpg
+- src: /assets/images/showcase/refine/wuhan/ZTT0061.jpg
   title: Wuhan
-- src: /assets/images/showcase/refine/wuhan/_ZTT0069.jpg
+- src: /assets/images/showcase/refine/wuhan/ZTT0069.jpg
   title: Wuhan
-- src: /assets/images/showcase/refine/wuhan/_ZTT0073.jpg
+- src: /assets/images/showcase/refine/wuhan/ZTT0073.jpg
   title: Wuhan
-- src: /assets/images/showcase/refine/wuhan/_ZTT0104.jpg
+- src: /assets/images/showcase/refine/wuhan/ZTT0104.jpg
   title: Wuhan
-- src: /assets/images/showcase/refine/wuhan/_ZTT0119.jpg
+- src: /assets/images/showcase/refine/wuhan/ZTT0119.jpg
   title: Wuhan
-- src: /assets/images/showcase/refine/wuhan/_ZTT9379.jpg
+- src: /assets/images/showcase/refine/wuhan/ZTT9379.jpg
   title: Wuhan
-- src: /assets/images/showcase/refine/wuhan/_ZTT9460.jpg
+- src: /assets/images/showcase/refine/wuhan/ZTT9460.jpg
   title: Wuhan
-- src: /assets/images/showcase/refine/wuhan/_ZTT9468.jpg
+- src: /assets/images/showcase/refine/wuhan/ZTT9468.jpg
   title: Wuhan
-- src: /assets/images/showcase/refine/wuhan/_ZTT9493.jpg
+- src: /assets/images/showcase/refine/wuhan/ZTT9493.jpg
   title: Wuhan
-- src: /assets/images/showcase/refine/wuhan/_ZTT9623.jpg
+- src: /assets/images/showcase/refine/wuhan/ZTT9623.jpg
   title: Wuhan
-- src: /assets/images/showcase/refine/wuhan/_ZTT9736.jpg
+- src: /assets/images/showcase/refine/wuhan/ZTT9736.jpg
   title: Wuhan
-- src: /assets/images/showcase/refine/wuhan/_ZTT9795.jpg
+- src: /assets/images/showcase/refine/wuhan/ZTT9795.jpg
   title: Wuhan
-- src: /assets/images/showcase/refine/wuhan/_ZTT9815.jpg
+- src: /assets/images/showcase/refine/wuhan/ZTT9815.jpg
   title: Wuhan
-- src: /assets/images/showcase/refine/wuhan/_ZTT9990.jpg
+- src: /assets/images/showcase/refine/wuhan/ZTT9990.jpg
   title: Wuhan
 ---
 

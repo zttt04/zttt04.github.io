@@ -41,6 +41,20 @@
                         </a>
                     </div>
                 </div>
+                {% if site.data.profile.phone %}
+                <div class="row small">
+                    <div class="col text-center">
+                        Phone: {{ site.data.profile.phone }}
+                    </div>
+                </div>
+                {% endif %}
+                {% if site.data.profile.wechat %}
+                <div class="row small">
+                    <div class="col text-center">
+                        WeChat: {{ site.data.profile.wechat }}
+                    </div>
+                </div>
+                {% endif %}
 
                 <div class="row pt-2">
                     <div class="col text-center h4">

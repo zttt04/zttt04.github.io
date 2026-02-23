@@ -13,10 +13,17 @@ container_class: container-xl
                 transition: box-shadow 0.2s ease, transform 0.2s ease;
                 border-radius: 0.8rem;
                 padding: 0.25rem;
+                background: #ffffff;
             }
             .place-card.active {
-                box-shadow: 0 0 0 3px rgba(13, 110, 253, 0.35);
+                background: #0d6efd;
+                color: #ffffff;
+                box-shadow: 0 0 0 3px rgba(13, 110, 253, 0.45);
                 transform: translateY(-1px);
+            }
+            .place-card.active .small,
+            .place-card.active strong {
+                color: #ffffff !important;
             }
         </style>
         <div class="row">
@@ -24,7 +31,7 @@ container_class: container-xl
                 <div id="travel-map" style="height: 420px; border-radius: 0.8rem;"></div>
             </div>
             <div class="col-lg-4">
-                <div id="place-scroll" style="height: 420px; overflow-y: auto; padding-right: 4px;">
+                <div style="height: 420px; padding-right: 4px;">
                     <div class="place-card mb-2" data-place="hongkong">
                         <img src="{{ '/assets/images/showcase/refine/hongkong/DSC09410.JPG' | relative_url }}" class="w-100 rounded-xl" style="height: 96px; object-fit: cover;" alt="Hong Kong">
                         <div class="small mt-1"><strong>Hong Kong</strong> · 2025.07</div>
@@ -39,22 +46,6 @@ container_class: container-xl
                     </div>
                     <div class="place-card mb-2" data-place="beijing">
                         <img src="{{ '/assets/images/showcase/refine/beijin/20230122-P1000867.jpg' | relative_url }}" class="w-100 rounded-xl" style="height: 96px; object-fit: cover;" alt="Beijing">
-                        <div class="small mt-1"><strong>Beijing</strong> · 2026.02</div>
-                    </div>
-                    <div class="place-card mb-2" data-place="hongkong">
-                        <img src="{{ '/assets/images/showcase/refine/hongkong/DSC_7242.JPG' | relative_url }}" class="w-100 rounded-xl" style="height: 96px; object-fit: cover;" alt="Hong Kong">
-                        <div class="small mt-1"><strong>Hong Kong</strong> · 2025.07</div>
-                    </div>
-                    <div class="place-card mb-2" data-place="wuhan">
-                        <img src="{{ '/assets/images/showcase/refine/wuhan/ZTT9493.jpg' | relative_url }}" class="w-100 rounded-xl" style="height: 96px; object-fit: cover;" alt="Wuhan">
-                        <div class="small mt-1"><strong>Wuhan</strong> · 2025.11</div>
-                    </div>
-                    <div class="place-card mb-2" data-place="singapore">
-                        <img src="{{ '/assets/images/showcase/refine/singapore/20230105-P1000642.jpg' | relative_url }}" class="w-100 rounded-xl" style="height: 96px; object-fit: cover;" alt="Singapore">
-                        <div class="small mt-1"><strong>Singapore</strong> · 2026.01</div>
-                    </div>
-                    <div class="place-card mb-2" data-place="beijing">
-                        <img src="{{ '/assets/images/showcase/refine/beijin/20230122-P1000911.jpg' | relative_url }}" class="w-100 rounded-xl" style="height: 96px; object-fit: cover;" alt="Beijing">
                         <div class="small mt-1"><strong>Beijing</strong> · 2026.02</div>
                     </div>
                 </div>
@@ -124,28 +115,5 @@ container_class: container-xl
       const marker = L.marker([p.lat, p.lng]).addTo(map).bindPopup(`<strong>${p.name}</strong><br>${p.time}`);
       marker.on('click', () => highlightPlace(p.id));
     });
-
-    const panel = document.getElementById('place-scroll');
-    let scrollTimer = null;
-    if (panel) {
-      scrollTimer = setInterval(() => {
-        panel.scrollTop += 1;
-        if (panel.scrollTop + panel.clientHeight >= panel.scrollHeight - 1) {
-          panel.scrollTop = 0;
-        }
-      }, 35);
-
-      panel.addEventListener('mouseenter', () => {
-        if (scrollTimer) clearInterval(scrollTimer);
-      });
-      panel.addEventListener('mouseleave', () => {
-        scrollTimer = setInterval(() => {
-          panel.scrollTop += 1;
-          if (panel.scrollTop + panel.clientHeight >= panel.scrollHeight - 1) {
-            panel.scrollTop = 0;
-          }
-        }, 35);
-      });
-    }
   });
 </script>

@@ -8,6 +8,7 @@ source "https://rubygems.org"
 #
 # This will help ensure the proper Jekyll version is running.
 # Happy Jekylling!
+gem "base64"
 gem "jekyll", "~> 3.9"
 
 # This is the default theme for new Jekyll sites. You may change this to anything you like.
@@ -31,3 +32,5 @@ gem "wdm", "~> 0.2" if Gem.win_platform?
 
 gem "webrick", "~> 1.7"
 gem "kramdown-parser-gfm"
+
+gem "bigdecimal"

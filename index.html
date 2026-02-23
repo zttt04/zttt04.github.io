@@ -13,98 +13,23 @@ navbar_title: Home
 
         <div class="card border-0 shadow-sm bg-white mt-3">
             <div class="card-body p-4">
-                <h5 class="mb-3">Personal Information</h5>
-                <p class="mb-1"><strong>Phone:</strong> (+86) 19821358821</p>
-                <p class="mb-1"><strong>Email:</strong> zt.tong@hotmail.com</p>
-                <p class="mb-0"><strong>Gender:</strong> Male <strong class="ml-2">Hometown:</strong> Guangdong, China</p>
-            </div>
-        </div>
-
-        <div class="card border-0 shadow-sm bg-white mt-3">
-            <div class="card-body p-4">
-                <h5 class="mb-3">Education</h5>
-                <p class="mb-1"><strong>Tongji University, B.Eng. in Artificial Intelligence</strong> (Sep 2023 - Present)</p>
+                <h5 class="mb-3">Research Interests</h5>
                 <ul class="mb-0">
-                    <li>GPA: 4.65/5.00</li>
-                    <li>Rank: 1/48</li>
-                    <li>English: CET-6 519, TOEFL 96</li>
+                    <li>World Models</li>
+                    <li>Autonomous Driving</li>
+                    <li>4D Gaussian Splatting (4DGS)</li>
+                    <li>GUI Agents</li>
                 </ul>
             </div>
         </div>
 
         <div class="card border-0 shadow-sm bg-white mt-3">
             <div class="card-body p-4">
-                <h5 class="mb-3">Honors and Awards</h5>
-                <ul class="mb-0">
-                    <li>Gold Award, China International College Students' Innovation Competition (Oct 2025)</li>
-                    <li>National First Prize, Global Campus AI Algorithm Elite Competition (Nov 2025)</li>
-                    <li>Second Prize, Asia-Pacific Mathematical Modeling Competition (Oct 2024)</li>
-                    <li>First Prize, Tongji University Mathematics Competition (May 2024)</li>
-                </ul>
-            </div>
-        </div>
-
-        <div class="card border-0 shadow-sm bg-white mt-3">
-            <div class="card-body p-4">
-                <h5 class="mb-3">Publication</h5>
+                <h5 class="mb-3">Current Focus</h5>
                 <p class="mb-0">
-                    Sen Chen*, <strong>Tong Zhao*</strong>, Yi Bin†, Fei Ma, Wenqi Shao, Zheng Wang.
-                    D-GARA: A Dynamic Benchmarking Framework for GUI Agent Robustness in Real-World Anomalies.
-                    Proceedings of the 40th AAAI Conference on Artificial Intelligence (AAAI), 2026.
+                    I work on model robustness and 3D/4D scene representation for intelligent systems.
+                    Please check the <a href="{{ '/showcase' | relative_url }}">Showcase</a> page for photo collections.
                 </p>
-            </div>
-        </div>
-
-        <div class="card border-0 shadow-sm bg-white mt-3">
-            <div class="card-body p-4">
-                <h5 class="mb-3">Research Experience</h5>
-                <p class="mb-1"><strong>Dynamic Gaussian Street Scene Generation from Video Latent Space</strong></p>
-                <p class="mb-2">Institute for AI Industry Research (AIR), Tsinghua University / Great Wall Motor | Advisor: Hao Zhao | Jan 2026 - Present</p>
-                <ul class="mb-3">
-                    <li>Explored a unified framework combining video generation and 4D Gaussian Splatting (4DGS), and proposed direct mapping from video latent space to dynamic 4D Gaussian representations to improve multi-view consistency and temporal stability.</li>
-                    <li>Designed a latent-to-4DGS decoder (Gaussian Head + Flow Head) with static/dynamic refiners, geometric attention, and rigid/non-rigid motion decomposition for geometry and dynamics reconstruction.</li>
-                    <li>Integrated multi-view control signals, depth, and Doppler supervision into an end-to-end differentiable pipeline to improve spatiotemporal consistency and physical plausibility for autonomous driving simulation scenes.</li>
-                </ul>
-
-                <p class="mb-1"><strong>Dynamic Framework for GUI Agent Robustness Evaluation (Accepted by AAAI 2026)</strong></p>
-                <p class="mb-2">Tongji University | Advisor: Yan Bin | Jan 2025 - Present</p>
-                <ul class="mb-0">
-                    <li>Proposed and implemented the D-GARA dynamic evaluation framework to systematically assess Android GUI agent robustness under real-world anomalies (permission pop-ups, battery alerts, update prompts, etc.).</li>
-                    <li>Built and annotated a benchmark dataset covering common apps, injected controllable interruptions in real task flows, and designed context-aware anomaly triggering with an XML vector environment validator.</li>
-                    <li>Conducted large-scale experiments showing significant performance degradation of multiple SOTA agents under anomalous conditions, highlighting the need for robust learning and evaluation.</li>
-                </ul>
-            </div>
-        </div>
-
-        <div class="card border-0 shadow-sm bg-white mt-3">
-            <div class="card-body p-4">
-                <h5 class="mb-3">Project Experience</h5>
-                <p class="mb-1"><strong>Xiaoman Smart Agriculture Assistant</strong> | Project Lead / National First Prize in Global Campus AI Algorithm Competition</p>
-                <ul class="mb-3">
-                    <li>Focused on three phases: pre-planting planning, in-season collaboration, and post-harvest operations, and identified where intelligent agents add value in policy interpretation, crop diagnosis, and pricing decisions.</li>
-                    <li>Led the architecture of a "single orchestrator agent + Understand/Perceive/Act modules" framework with real-time retrieval and MCP integration (policy/weather/market access).</li>
-                    <li>Combined RAG knowledge base and pricing-monitor APIs to produce structured outputs with source traceability, auditable conclusions, and executable actions.</li>
-                </ul>
-
-                <p class="mb-1"><strong>In-Vehicle Intelligent Agent Interaction System</strong> | Core Developer / Gold Award in China International College Students' Innovation Competition</p>
-                <ul class="mb-0">
-                    <li>Built an end-to-end "speech -> GUI agent -> in-vehicle control" pipeline to map conversational requests into normalized GUI operations and action sequences.</li>
-                    <li>Designed a state-machine strategy for a full loop of command dispatch, page transition, and state verification to ensure stable execution.</li>
-                    <li>Optimized OmniParser for in-vehicle UI characteristics to improve fine-grained understanding of small icons and state indicators, reducing misrecognition and repeated confirmations.</li>
-                </ul>
-            </div>
-        </div>
-
-        <div class="card border-0 shadow-sm bg-white mt-3">
-            <div class="card-body p-4">
-                <h5 class="mb-3">Engineering Practice</h5>
-                <p class="mb-1"><strong>Design and Implementation of an Embedded Edge AI Inference System</strong></p>
-                <ul class="mb-0">
-                    <li>Designed and implemented an embedded AI inference system for edge-intelligence scenarios, covering the full workflow from model training to quantized hardware deployment.</li>
-                    <li>Built edge inference and system-level integration of neural models on resource-constrained devices based on STM32H747 MCU and ZYNQ FPGA platforms.</li>
-                    <li>Used X-CUBE-AI on MCU for model conversion and deployment, and developed haptic interaction and real-time recognition applications.</li>
-                    <li>Designed a modular and reconfigurable compute architecture on FPGA, enabling multi-function switching through AXI bus and PS-PL collaboration to demonstrate software-hardware co-design capability.</li>
-                </ul>
             </div>
         </div>
     </div>

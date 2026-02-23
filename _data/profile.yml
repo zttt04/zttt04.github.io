@@ -4,21 +4,18 @@ navbar_name: "Tong Zhao"
 
 positions:
 - name: B.Eng. Candidate in Artificial Intelligence, Tongji University
-- name: "Interests: GUI Agents, Embodied AI Evaluation, Edge AI Inference Systems"
+- name: "Interests: World Models, Autonomous Driving, 4D Gaussian Splatting (4DGS), GUI Agents"
 
 email: "zt.tong@hotmail.com"
-cv_link: /Tong_Zhao_CV.pdf
 github: zttt04
 
 short_bio_text_justify: false
 short_bio: >-
   <p>
-    I am an undergraduate student in Artificial Intelligence at Tongji University,
-    with a GPA of 4.65/5.00 and rank 1/48.
+    I am an undergraduate student in Artificial Intelligence at Tongji University.
   </p>
   <p>
-    My current focus includes GUI agent robustness evaluation, autonomous driving scene generation,
-    and embedded/edge AI inference systems.
+    My current focus is on World Models, Autonomous Driving, 4D Gaussian Splatting (4DGS), and GUI Agents.
   </p>
 
 portrait_url: /assets/images/photos/portrait.jpg

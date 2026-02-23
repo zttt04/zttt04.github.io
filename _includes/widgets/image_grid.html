@@ -1,0 +1,14 @@
+<div class="row no-gutters">
+    {% for item in include.images %}
+    <div class="col-6 col-md-4 p-1">
+        <a href="{{ item.src | relative_url }}" target="_blank">
+            <img
+                data-src="{{ item.src | relative_url }}"
+                class="lazy w-100 rounded-xl"
+                src="{{ '/assets/images/empty_300x200.png' | relative_url }}"
+                alt="{{ item.title | default: 'Gallery image' }}"
+                loading="lazy">
+        </a>
+    </div>
+    {% endfor %}
+</div>

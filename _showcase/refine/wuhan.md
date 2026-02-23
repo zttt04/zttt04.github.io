@@ -3,7 +3,6 @@ show: true
 width: 6
 date: 2026-02-23 00:01:00 +0800
 group: Refine Photos
-height: 360px
 images:
 - src: /assets/images/showcase/refine/wuhan/ZTT0018.jpg
   title: Wuhan
@@ -37,4 +36,4 @@ images:
   title: Wuhan
 ---
 
-{% include widgets/carousel.html id=page.id images=page.images height=page.height %}
+{% include widgets/image_grid.html images=page.images %}

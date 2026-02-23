@@ -3,6 +3,7 @@ show: true
 width: 6
 date: 2026-02-23 00:02:00 +0800
 group: Refine Photos
+location: Singapore
 images:
 - src: /assets/images/showcase/refine/singapore/20230104-P1000435.jpg
   title: Singapore
@@ -16,8 +17,9 @@ images:
   title: Singapore
 - src: /assets/images/showcase/refine/singapore/20230108-P1000727.jpg
   title: Singapore
-- src: /assets/images/showcase/refine/singapore/20230109-P1000800.jpg
-  title: Singapore
 ---
 
-{% include widgets/image_grid.html images=page.images %}
+<div class="p-2">
+  <h5 class="mb-2">{{ page.location }}</h5>
+  {% include widgets/image_grid.html images=page.images %}
+</div>

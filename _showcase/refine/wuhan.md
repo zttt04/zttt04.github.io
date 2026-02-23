@@ -3,6 +3,7 @@ show: true
 width: 6
 date: 2026-02-23 00:01:00 +0800
 group: Refine Photos
+location: Wuhan
 images:
 - src: /assets/images/showcase/refine/wuhan/ZTT0018.jpg
   title: Wuhan
@@ -36,4 +37,7 @@ images:
   title: Wuhan
 ---
 
-{% include widgets/image_grid.html images=page.images %}
+<div class="p-2">
+  <h5 class="mb-2">{{ page.location }}</h5>
+  {% include widgets/image_grid.html images=page.images %}
+</div>

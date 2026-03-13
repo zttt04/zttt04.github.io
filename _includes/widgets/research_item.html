@@ -1,0 +1,30 @@
+{% assign item = include.item %}
+<div class="research-item rounded-xl p-4 {% unless include.last %}mb-3{% endunless %}">
+    <div class="d-flex flex-column flex-lg-row align-items-lg-start justify-content-between">
+        <div class="pr-lg-3">
+            <h6 class="mb-2">{{ item.title }}</h6>
+            <p class="mb-0 text-muted small d-flex align-items-center flex-wrap">
+                {% if item.logo %}
+                <img src="{{ item.logo | relative_url }}" alt="{{ item.organization }} emblem" class="inline-school-logo" width="16" height="16">
+                {% endif %}
+                <span>{{ item.organization }}{% if item.advisor %} | Advisor: {{ item.advisor }}{% endif %}</span>
+            </p>
+        </div>
+        <div class="research-item-meta text-lg-right mt-2 mt-lg-0">
+            {% if item.date %}
+            <div class="small font-weight-bold">{{ item.date }}</div>
+            {% endif %}
+            {% if item.highlight %}
+            <div class="small text-muted">{{ item.highlight }}</div>
+            {% endif %}
+        </div>
+    </div>
+
+    {% if item.bullets %}
+    <ul class="mb-0 mt-3">
+        {% for bullet in item.bullets %}
+        <li>{{ bullet }}</li>
+        {% endfor %}
+    </ul>
+    {% endif %}
+</div>

@@ -5,7 +5,7 @@
             <h6 class="mb-2">{{ item.title }}</h6>
             <p class="mb-0 text-muted small d-flex align-items-center flex-wrap">
                 {% if item.logo %}
-                <img src="{{ item.logo | relative_url }}" alt="{{ item.organization }} emblem" class="inline-school-logo" width="15" height="15">
+                <img src="{{ item.logo | relative_url }}" alt="{{ item.organization }} emblem" class="inline-school-logo" width="20" height="20">
                 {% endif %}
                 <span>{{ item.organization }}{% if item.advisor %} | Advisor: {{ item.advisor }}{% endif %}</span>
             </p>

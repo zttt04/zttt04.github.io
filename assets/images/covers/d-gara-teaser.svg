@@ -1,0 +1,40 @@
+<svg width="360" height="240" viewBox="0 0 360 240" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="360" height="240" rx="24" fill="#F5F7FB"/>
+  <rect x="20" y="18" width="96" height="30" rx="8" fill="#164E63"/>
+  <text x="68" y="38" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="16" font-weight="700">AAAI 2026</text>
+
+  <rect x="20" y="60" width="150" height="150" rx="16" fill="white" stroke="#CBD5E1"/>
+  <rect x="34" y="74" width="122" height="124" rx="14" fill="#E2E8F0"/>
+  <rect x="44" y="84" width="102" height="104" rx="12" fill="white" stroke="#94A3B8"/>
+  <rect x="58" y="98" width="32" height="24" rx="6" fill="#DBEAFE"/>
+  <rect x="96" y="98" width="36" height="8" rx="4" fill="#1D4ED8" fill-opacity="0.16"/>
+  <rect x="96" y="112" width="28" height="8" rx="4" fill="#1D4ED8" fill-opacity="0.16"/>
+  <rect x="58" y="130" width="74" height="12" rx="6" fill="#0F172A" fill-opacity="0.08"/>
+  <rect x="58" y="148" width="54" height="12" rx="6" fill="#0F172A" fill-opacity="0.08"/>
+  <rect x="116" y="146" width="22" height="16" rx="8" fill="#2563EB"/>
+  <rect x="80" y="40" width="70" height="44" rx="10" fill="#FFF7ED" stroke="#FDBA74"/>
+  <text x="115" y="58" text-anchor="middle" fill="#9A3412" font-family="Arial, sans-serif" font-size="9" font-weight="700">ANOMALY</text>
+  <text x="115" y="70" text-anchor="middle" fill="#9A3412" font-family="Arial, sans-serif" font-size="8">Permission Prompt</text>
+  <path d="M118 84L118 95" stroke="#EA580C" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M114 92L118 96L122 92" stroke="#EA580C" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <rect x="184" y="60" width="156" height="150" rx="16" fill="white" stroke="#CBD5E1"/>
+  <text x="198" y="86" fill="#0F172A" font-family="Arial, sans-serif" font-size="22" font-weight="700">D-GARA</text>
+  <text x="198" y="106" fill="#475569" font-family="Arial, sans-serif" font-size="11">Dynamic benchmark for GUI agent robustness</text>
+
+  <rect x="198" y="122" width="66" height="34" rx="10" fill="#EFF6FF" stroke="#93C5FD"/>
+  <text x="231" y="137" text-anchor="middle" fill="#1D4ED8" font-family="Arial, sans-serif" font-size="9" font-weight="700">GUI AGENT</text>
+  <text x="231" y="149" text-anchor="middle" fill="#1D4ED8" font-family="Arial, sans-serif" font-size="8">Task Execution</text>
+
+  <rect x="274" y="122" width="52" height="34" rx="10" fill="#ECFDF5" stroke="#86EFAC"/>
+  <text x="300" y="137" text-anchor="middle" fill="#15803D" font-family="Arial, sans-serif" font-size="8" font-weight="700">STATE</text>
+  <text x="300" y="149" text-anchor="middle" fill="#15803D" font-family="Arial, sans-serif" font-size="8">VALIDATOR</text>
+
+  <path d="M264 139H274" stroke="#64748B" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M268 135L274 139L268 143" stroke="#64748B" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <rect x="198" y="168" width="128" height="28" rx="10" fill="#F8FAFC" stroke="#CBD5E1"/>
+  <path d="M214 187L226 179L236 183L248 174L260 181L272 171L284 177L296 166L310 171" stroke="#2563EB" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="310" cy="171" r="4" fill="#2563EB"/>
+  <text x="214" y="162" fill="#475569" font-family="Arial, sans-serif" font-size="9">Robustness drop under anomalies</text>
+</svg>

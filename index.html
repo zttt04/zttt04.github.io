@@ -35,16 +35,20 @@ navbar_title: Home
             </div>
         </div>
 
+        {% assign selected_pubs = site.publications | sort: "date" | reverse | where: "selected", true %}
+        {% if selected_pubs.size > 0 %}
         <div class="card border-0 shadow-sm bg-white mt-3">
-            <div class="card-body p-4">
-                <h5 class="mb-3">Publication</h5>
-                <p class="mb-0">
-                    Sen Chen*, <strong>Tong Zhao*</strong>, Yi Bin†, Fei Ma, Wenqi Shao, Zheng Wang.
-                    D-GARA: A Dynamic Benchmarking Framework for GUI Agent Robustness in Real-World Anomalies.
-                    Proceedings of the 40th AAAI Conference on Artificial Intelligence (AAAI), 2026.
-                </p>
+            <div class="card-body p-0">
+                <div class="d-flex align-items-center justify-content-between px-4 pt-4 pb-2">
+                    <h5 class="mb-0">Selected Publications</h5>
+                    <a class="small" href="{{ 'publications' | relative_url }}">View all</a>
+                </div>
+                {% for item in selected_pubs limit:3 %}
+                    {% include widgets/publication_item.html item=item hide_bottom_border=forloop.last first=forloop.first last=forloop.last %}
+                {% endfor %}
             </div>
         </div>
+        {% endif %}
 
         <div class="card border-0 shadow-sm bg-white mt-3">
             <div class="card-body p-4">

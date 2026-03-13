@@ -86,7 +86,43 @@ div.lazy {
     font-size: 100%;
 }
 
+.publication-cover {
+    display: block;
+    width: 100%;
+    aspect-ratio: 3 / 2;
+    object-fit: cover;
+    border: 1px solid rgba(15, 23, 42, 0.08);
+    box-shadow: 0 10px 24px rgba(15, 23, 42, 0.08);
+    background: linear-gradient(135deg, #f8fafc, #eef2f7);
+}
+
+.publication-links {
+    margin-top: 0.6rem;
+}
+
+.publication-link {
+    display: inline-block;
+    margin: 0 0.5rem 0.45rem 0;
+    padding: 0.28rem 0.7rem;
+    border: 1px solid #1f2937;
+    border-radius: 0.45rem;
+    color: #1f2937 !important;
+    background-color: #ffffff;
+    font-size: 0.74rem;
+    font-weight: 700;
+    letter-spacing: 0.04em;
+    line-height: 1;
+    text-decoration: none !important;
+    text-transform: uppercase;
+    transition: background-color 0.15s ease, color 0.15s ease, border-color 0.15s ease;
+}
+
+.publication-link:hover {
+    color: #ffffff !important;
+    background-color: #1f2937;
+    border-color: #1f2937;
+}
+
 .email-text {
     font-family: Source Code Pro, monospace;
 }
-

@@ -18,7 +18,7 @@ navbar_title: Home
                 <ul class="mb-0">
                     <li>GPA: 4.65/5.00</li>
                     <li>Rank: 1/48</li>
-                    <li>English: CET-6 519, TOEFL 96</li>
+                    <li>English proficiency: CET-6 519, TOEFL 96</li>
                 </ul>
             </div>
         </div>
@@ -50,19 +50,19 @@ navbar_title: Home
             <div class="card-body p-4">
                 <h5 class="mb-3">Research Experience</h5>
                 <p class="mb-1"><strong>Dynamic Gaussian Street Scene Generation from Video Latent Space</strong></p>
-                <p class="mb-2">Institute for AI Industry Research (AIR), Tsinghua University / Great Wall Motor | Advisor: Hao Zhao | Jan 2026 - Present</p>
+                <p class="mb-2">Institute for AI Industry Research (AIR), Tsinghua University | Advisor: Hao Zhao | Jan 2026 - Mar 2026</p>
                 <ul class="mb-3">
-                    <li>Developed a unified framework combining video generation and 4DGS to improve multi-view consistency and temporal stability.</li>
-                    <li>Designed latent-to-4DGS decoding heads and static/dynamic refiners with geometric attention for dynamic scene reconstruction.</li>
-                    <li>Integrated multi-view controls, depth, and Doppler supervision in an end-to-end differentiable pipeline for autonomous driving simulation.</li>
+                    <li>Explored a unified formulation of video diffusion and 3D Gaussian Splatting for street-scene generation in autonomous driving simulation.</li>
+                    <li>Designed a latent-to-4DGS decoder with Gaussian Head and Deformation Head branches to explicitly map latent variables to dynamic Gaussian representations.</li>
+                    <li>Introduced static and dynamic refiner modules, geometric attention, and rigid/non-rigid motion decomposition to improve geometry-aware dynamic reconstruction.</li>
                 </ul>
 
                 <p class="mb-1"><strong>Dynamic Framework for GUI Agent Robustness Evaluation (Accepted by AAAI 2026)</strong></p>
-                <p class="mb-2">Tongji University | Advisor: Yan Bin | Jan 2025 - Present</p>
+                <p class="mb-2">Tongji University | Advisor: Yi Bin | Jan 2025 - Present</p>
                 <ul class="mb-0">
-                    <li>Proposed and implemented D-GARA to evaluate Android GUI agent robustness under real-world anomalies.</li>
-                    <li>Built a benchmark dataset and designed context-aware anomaly injection with an XML vector environment validator.</li>
-                    <li>Verified significant performance degradation of multiple SOTA agents in anomalous scenarios.</li>
+                    <li>Proposed and implemented D-GARA, a dynamic evaluation framework for Android GUI agents under real-world anomalous conditions.</li>
+                    <li>Built a benchmark dataset covering common mobile apps, annotated task flows and anomaly types, and designed context-aware anomaly triggering.</li>
+                    <li>Developed an XML-based target-state validator and ran large-scale comparative experiments to analyze robustness failures in state-of-the-art agents.</li>
                 </ul>
             </div>
         </div>
@@ -71,17 +71,40 @@ navbar_title: Home
             <div class="card-body p-4">
                 <h5 class="mb-3">Projects</h5>
                 <p class="mb-1"><strong>Xiaoman Smart Agriculture Assistant</strong> | Project Lead</p>
+                <p class="mb-2">Aug 2025 - Nov 2025 | National First Prize, Global Campus AI Algorithm Elite Competition</p>
                 <ul class="mb-3">
-                    <li>Designed an agent system across planning, in-season collaboration, and post-harvest operations.</li>
-                    <li>Led a "controller agent + Understand/Perceive/Act modules" architecture with MCP and retrieval integration.</li>
-                    <li>Integrated RAG and market APIs for traceable, auditable, and executable outputs.</li>
+                    <li>Led end-to-end system planning for an agricultural decision-support agent spanning pre-planting, in-season coordination, and post-harvest operations.</li>
+                    <li>Designed a controller-agent architecture with Understand, Perceive, and Act modules after interviewing more than 20 agricultural practitioners.</li>
+                    <li>Integrated retrieval, MCP capabilities, policy/weather/market data sources, and a RAG pipeline to produce traceable and auditable recommendations.</li>
                 </ul>
 
                 <p class="mb-1"><strong>In-Vehicle Intelligent Agent Interaction System</strong> | Core Developer</p>
+                <p class="mb-2">Jun 2025 - Nov 2025 | Gold Award, China International College Students' Innovation Competition</p>
+                <ul class="mb-3">
+                    <li>Built a complete speech-to-GUI-agent-to-vehicle-control pipeline for high-frequency in-vehicle commands such as navigation and calibration.</li>
+                    <li>Designed intent recognition and GUI mapping rules, then deployed and validated the full interaction loop on a custom in-vehicle interface.</li>
+                    <li>Optimized OmniParser for fine-grained recognition of small icons and status indicators, reducing misrecognition and repeated confirmation steps.</li>
+                </ul>
+
+                <p class="mb-1"><strong>Embedded Edge AI Inference System Design and Implementation</strong> | Core Developer</p>
+                <p class="mb-2">Dec 2025</p>
                 <ul class="mb-0">
-                    <li>Built a complete speech -> GUI agent -> in-vehicle control pipeline.</li>
-                    <li>Implemented a state-machine loop for dispatch, page transition, and execution verification.</li>
-                    <li>Optimized OmniParser for in-vehicle UI to reduce misrecognition and repeated confirmation.</li>
+                    <li>Implemented on-device model training, quantization, conversion, and deployment on the STM32H747 microcontroller with X-CUBE-AI.</li>
+                    <li>Built a touch-interactive real-time inference workflow and optimized memory usage and latency for stable embedded deployment.</li>
+                    <li>Designed a modular reconfigurable computing architecture on a ZYNQ FPGA platform, including PS/PL partitioning and AXI-based integration.</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="card border-0 shadow-sm bg-white mt-3">
+            <div class="card-body p-4">
+                <h5 class="mb-3">Skills</h5>
+                <ul class="mb-0">
+                    <li><strong>Programming:</strong> Python, C++</li>
+                    <li><strong>Frameworks and Tools:</strong> PyTorch, MATLAB, X-CUBE-AI / STM32Cube.AI</li>
+                    <li><strong>Research Areas:</strong> Deep Learning, Generative Models, Diffusion Models, 4DGS, GUI Agents, Reinforcement Learning Fundamentals</li>
+                    <li><strong>Systems:</strong> Embedded AI deployment, FPGA architecture design, hardware-software co-design</li>
+                    <li><strong>Research Practice:</strong> Paper writing, experiment design, ablation studies, benchmark construction</li>
                 </ul>
             </div>
         </div>

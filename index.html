@@ -74,29 +74,9 @@ navbar_title: Home
         <div class="card border-0 shadow-sm bg-white mt-3">
             <div class="card-body p-4">
                 <h5 class="mb-3">Projects</h5>
-                <p class="mb-1"><strong>Xiaoman Smart Agriculture Assistant</strong> | Project Lead</p>
-                <p class="mb-2">Aug 2025 - Nov 2025 | National First Prize, Global Campus AI Algorithm Elite Competition</p>
-                <ul class="mb-3">
-                    <li>Led end-to-end system planning for an agricultural decision-support agent spanning pre-planting, in-season coordination, and post-harvest operations.</li>
-                    <li>Designed a controller-agent architecture with Understand, Perceive, and Act modules after interviewing more than 20 agricultural practitioners.</li>
-                    <li>Integrated retrieval, MCP capabilities, policy/weather/market data sources, and a RAG pipeline to produce traceable and auditable recommendations.</li>
-                </ul>
-
-                <p class="mb-1"><strong>In-Vehicle Intelligent Agent Interaction System</strong> | Core Developer</p>
-                <p class="mb-2">Jun 2025 - Nov 2025 | Gold Award, China International College Students' Innovation Competition</p>
-                <ul class="mb-3">
-                    <li>Built a complete speech-to-GUI-agent-to-vehicle-control pipeline for high-frequency in-vehicle commands such as navigation and calibration.</li>
-                    <li>Designed intent recognition and GUI mapping rules, then deployed and validated the full interaction loop on a custom in-vehicle interface.</li>
-                    <li>Optimized OmniParser for fine-grained recognition of small icons and status indicators, reducing misrecognition and repeated confirmation steps.</li>
-                </ul>
-
-                <p class="mb-1"><strong>Embedded Edge AI Inference System Design and Implementation</strong> | Core Developer</p>
-                <p class="mb-2">Dec 2025</p>
-                <ul class="mb-0">
-                    <li>Implemented on-device model training, quantization, conversion, and deployment on the STM32H747 microcontroller with X-CUBE-AI.</li>
-                    <li>Built a touch-interactive real-time inference workflow and optimized memory usage and latency for stable embedded deployment.</li>
-                    <li>Designed a modular reconfigurable computing architecture on a ZYNQ FPGA platform, including PS/PL partitioning and AXI-based integration.</li>
-                </ul>
+                {% for item in site.data.projects %}
+                    {% include widgets/project_item.html item=item last=forloop.last %}
+                {% endfor %}
             </div>
         </div>
 

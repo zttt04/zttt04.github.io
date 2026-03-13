@@ -1,0 +1,25 @@
+- title: Xiaoman Smart Agriculture Assistant
+  role: Project Lead
+  date: Aug 2025 - Nov 2025
+  highlight: National First Prize, Global Campus AI Algorithm Elite Competition
+  bullets:
+    - Led end-to-end system planning for an agricultural decision-support agent spanning pre-planting, in-season coordination, and post-harvest operations.
+    - Designed a controller-agent architecture with Understand, Perceive, and Act modules after interviewing more than 20 agricultural practitioners.
+    - Integrated retrieval, MCP capabilities, policy, weather, and market data with a RAG pipeline to produce traceable and auditable recommendations.
+
+- title: In-Vehicle Intelligent Agent Interaction System
+  role: Core Developer
+  date: Jun 2025 - Nov 2025
+  highlight: Gold Award, China International College Students' Innovation Competition
+  bullets:
+    - Built a complete speech-to-GUI-agent-to-vehicle-control pipeline for high-frequency in-vehicle commands such as navigation and calibration.
+    - Designed intent recognition and GUI mapping rules, then deployed and validated the full interaction loop on a custom in-vehicle interface.
+    - Optimized OmniParser for fine-grained recognition of small icons and status indicators, reducing misrecognition and repeated confirmation steps.
+
+- title: Embedded Edge AI Inference System Design and Implementation
+  role: Core Developer
+  date: Dec 2025
+  bullets:
+    - Implemented on-device model training, quantization, conversion, and deployment on the STM32H747 microcontroller with X-CUBE-AI.
+    - Built a touch-interactive real-time inference workflow and optimized memory usage and latency for stable embedded deployment.
+    - Designed a modular reconfigurable computing architecture on a ZYNQ FPGA platform, including PS/PL partitioning and AXI-based integration.

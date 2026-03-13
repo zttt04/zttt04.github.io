@@ -1,0 +1,25 @@
+{% assign item = include.item %}
+<div class="project-item rounded-xl p-4 {% unless include.last %}mb-3{% endunless %}">
+    <div class="d-flex flex-column flex-lg-row align-items-lg-start justify-content-between">
+        <div class="pr-lg-3">
+            <h6 class="mb-1">{{ item.title }}</h6>
+            <p class="mb-2 mb-lg-0 text-muted small">{{ item.role }}</p>
+        </div>
+        <div class="project-item-meta text-lg-right">
+            {% if item.date %}
+            <div class="small font-weight-bold">{{ item.date }}</div>
+            {% endif %}
+            {% if item.highlight %}
+            <div class="small text-muted">{{ item.highlight }}</div>
+            {% endif %}
+        </div>
+    </div>
+
+    {% if item.bullets %}
+    <ul class="mb-0 mt-3">
+        {% for bullet in item.bullets %}
+        <li>{{ bullet }}</li>
+        {% endfor %}
+    </ul>
+    {% endif %}
+</div>

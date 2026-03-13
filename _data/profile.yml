@@ -4,7 +4,7 @@ navbar_name: "Tong Zhao"
 
 positions:
 - name: B.Eng. Candidate in Artificial Intelligence, Tongji University
-- name: "Interests: Generative Models, Autonomous Driving Simulation, 4D Gaussian Splatting (4DGS), GUI Agents"
+- name: "Interests: Generative Models, Autonomous Driving Simulation, 3D Gaussian Splatting, Agent Systems"
 
 email: "zt.tong@hotmail.com"
 wechat: "19821358821"
@@ -16,7 +16,7 @@ short_bio: >-
     I am an undergraduate student in Artificial Intelligence at Tongji University, currently ranked 1/48 with a GPA of 4.65/5.00.
   </p>
   <p>
-    My work spans GUI agent evaluation, generative modeling, and autonomous driving simulation, with current interests in diffusion models, 4D Gaussian Splatting, and robust interactive AI systems.
+    My work spans GUI agent evaluation, generative modeling, and autonomous driving simulation, with current interests in diffusion models, 3D Gaussian Splatting, and agent systems.
   </p>
   <p>
     <strong>Personal Interests:</strong> Running, swimming, and photography.

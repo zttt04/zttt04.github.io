@@ -13,7 +13,7 @@
   advisor: Yi Bin
   date: Jan 2025 - Present
   highlight: Accepted by AAAI 2026
-  logo: /assets/images/badges/tongji-emblem.jpg
+  logo: /assets/images/badges/tongji-emblem.png
   bullets:
     - Proposed and implemented D-GARA, a dynamic evaluation framework for Android GUI agents under real-world anomalous conditions.
     - Built a benchmark dataset covering common mobile apps, annotated task flows and anomaly types, and designed context-aware anomaly triggering.

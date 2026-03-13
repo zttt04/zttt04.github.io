@@ -2,7 +2,6 @@
   organization: Institute for AI Industry Research (AIR), Tsinghua University
   advisor: Hao Zhao
   date: Jan 2026 - Mar 2026
-  logo: /assets/images/badges/tsinghua-emblem.svg
   bullets:
     - Explored a unified formulation of video diffusion and 3D Gaussian Splatting for street-scene generation in autonomous driving simulation.
     - Designed a latent-to-4DGS decoder with Gaussian Head and Deformation Head branches to explicitly map latent variables to dynamic Gaussian representations.
@@ -13,7 +12,6 @@
   advisor: Yi Bin
   date: Jan 2025 - Present
   highlight: Accepted by AAAI 2026
-  logo: /assets/images/badges/tongji-emblem.png
   bullets:
     - Proposed and implemented D-GARA, a dynamic evaluation framework for Android GUI agents under real-world anomalous conditions.
     - Built a benchmark dataset covering common mobile apps, annotated task flows and anomaly types, and designed context-aware anomaly triggering.
